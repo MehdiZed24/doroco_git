@@ -11,3 +11,6 @@ fit init : initialise un dépot (repository) git
 git config --global user.name "prenom NOM"
 git config --global user.email "votre adresse mail"
 git config --list (appuyer sur Q pour quitter)
+git add <noms des fichiers> :  on envoie les fichiers dans l'index en attente de commit
+git status : donne des infos sur le dépot
+git commit-m "message de commit" : créer une version du dépot avec un message
